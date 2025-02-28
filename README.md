@@ -51,8 +51,5 @@ Stay inspired, organized, and informed—all in one place! 🎯
 ## 💡 Contributing
 Feel free to contribute! Open an issue or submit a pull request. 😊
 
-## 📜 License
-This project is licensed under the MIT License.
-
 🚀 **Stay inspired, stay productive!** 🎉
 
