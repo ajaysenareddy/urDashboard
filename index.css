@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#time {
+    display: flex;
+    align-self: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word-of-the-day, .quote {
+    width: 50%;
+}
+
+.quote, .weather, .word-of-the-day, .to-do {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.to-do {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.to-do input, .to-do button {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.to-do ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 150px;
+}
+
+.to-do li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.delete-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: blue;
+}
+
+#add-btn, #delete-btn {
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#add-btn:hover, .delete-btn:hover {
+    background: #3498db;
+    transform: scale(1.1);
+}
+
+#todo-input {
+    font-family: inherit;
+}
+
+#todo-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+    background: #3498db;
+    border-radius: 5px;
+}
+
+
+#quote,#word-of-the-day,#weather{
+    font-size: 1rem;
+}
+
+#word-highlight{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
