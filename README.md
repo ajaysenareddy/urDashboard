@@ -45,7 +45,7 @@ Stay inspired, organized, and informed—all in one place!
 
 ## ⚛️ Why Vanilla JS?
 
-Despite having **hands-on experience with ReactJs**, I chose to build **UrDashboard** in **vanilla JavaScript** to ensure lightweight performance and avoid unnecessary dependencies for a Chrome extension.
+Although I'm comfortable with React, I chose to build UrDashboard using vanilla JavaScript to keep the extension lightweight and free of unnecessary dependencies—ideal for browser performance and quick load times.
 
 This project was structured with **React-like principles** in mind:
 
