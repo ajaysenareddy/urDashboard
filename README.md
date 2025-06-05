@@ -53,8 +53,6 @@ This project was structured with **React-like principles** in mind:
 * **State Management Thinking**: UI interactions mimic `useState` and `useEffect` behavior
 * **Scalability**: The structure can easily be refactored into React or integrated with Payload CMS
 
-> This build showcases not just my frontend abilities, but my judgment in selecting the right tools for the right context—while maintaining clean, scalable code.
-
 ---
 
 ## 💡 Installation
@@ -85,13 +83,3 @@ This project was structured with **React-like principles** in mind:
 
 Pull requests and contributions are welcome!
 Feel free to fork the repo or open issues for suggestions.
-
----
-
-## 🧠 React Version Coming Soon?
-
-I plan to release a **React/Next.js version of UrDashboard** integrated with **Payload CMS**, making it editable and dynamic for future scaling.
-
----
-
-Let me know if you'd like a version of this README tailored for **a specific job role**, or if you'd like to add screenshots or a live demo badge.
